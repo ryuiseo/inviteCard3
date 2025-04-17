@@ -14,7 +14,7 @@ const DDayCounter = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{ marginTop: "-7rem" }}>
       한건 <span style={{ color: "#7BBD00" }}>♥</span> 채영의 결혼식이{" "}
       <span style={{ color: "#7BBD00", fontWeight: "bold" }}>{dDay}일</span>{" "}
       남았습니다.

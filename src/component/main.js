@@ -11,6 +11,10 @@ import { useState } from "react";
 import DDayCounter from "../functions/dday";
 import ImagesSlide from "./imageslide";
 import { images } from "../functions/images";
+import main from "../images/rsw1.png";
+import calendar from "../images/calendar2.png";
+import kakaomap from "../images/kakaomap_basic.png";
+import navermap from "../images/naver_logo.webp";
 import {
   MainContainer,
   MainImage,
@@ -120,7 +124,7 @@ const Main = () => {
 
   return (
     <MainContainer>
-      <MainImage src="/rsw1.png" />
+      <MainImage src={main} />
       <MainText style={{ marginBottom: "5rem" }}>
         이한건 | 김채영 <br />
         2025년 9월 20일 토요일 오후 12시 30분 <br />
@@ -161,7 +165,7 @@ const Main = () => {
           y: { duration: 1 },
         }}
       >
-        <CalendarImage src="/calendar.png" />
+        <CalendarImage src={calendar} />
         <DdayText>
           <DDayCounter />
         </DdayText>
@@ -237,7 +241,7 @@ const Main = () => {
                   objectFit: "cover",
                   cursor: "pointer",
                 }}
-                src={"/kakaomap_basic.png"}
+                src={kakaomap}
                 alt="kakao"
                 onClick={() =>
                   window.open("https://place.map.kakao.com/299787545")
@@ -269,7 +273,7 @@ const Main = () => {
                   objectFit: "cover",
                   cursor: "pointer",
                 }}
-                src={"./naver_logo.webp"}
+                src={navermap}
                 alt="naver"
                 onClick={() => window.open("https://naver.me/5chuSHkG")}
               />
