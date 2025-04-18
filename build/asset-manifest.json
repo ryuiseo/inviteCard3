@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/inviteCard3/static/css/main.1d0586a0.css",
+    "main.js": "/inviteCard3/static/js/main.94cd0c41.js",
+    "static/js/453.c7968598.chunk.js": "/inviteCard3/static/js/453.c7968598.chunk.js",
+    "static/media/rsw1.png": "/inviteCard3/static/media/rsw1.9222167a7af3d0176a29.png",
+    "static/media/calendar2.png": "/inviteCard3/static/media/calendar2.1d32b45e8a98815deeac.png",
+    "static/media/kakaomap_basic.png": "/inviteCard3/static/media/kakaomap_basic.b6bf66996c6904da94bf.png",
+    "static/media/naver_logo.webp": "/inviteCard3/static/media/naver_logo.7717483eebafa7435918.webp",
+    "static/media/slick.svg": "/inviteCard3/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/inviteCard3/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/inviteCard3/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/inviteCard3/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/inviteCard3/index.html",
+    "main.1d0586a0.css.map": "/inviteCard3/static/css/main.1d0586a0.css.map",
+    "main.94cd0c41.js.map": "/inviteCard3/static/js/main.94cd0c41.js.map",
+    "453.c7968598.chunk.js.map": "/inviteCard3/static/js/453.c7968598.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d0586a0.css",
+    "static/js/main.94cd0c41.js"
+  ]
+}

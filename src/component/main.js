@@ -127,8 +127,8 @@ const Main = () => {
       <MainImage src={main} />
       <MainText style={{ marginBottom: "5rem" }}>
         이한건 | 김채영 <br />
-        2025년 9월 20일 토요일 오후 12시 30분 <br />
-        더빅토리아웨딩파티 9층 하늘정원홀
+        2025년 9월 20일 토요일 오후 12시 30분 <br />더 빅토리아웨딩파티 9층
+        하늘정원홀
       </MainText>
       <MainText>
         설레는 마음으로 처음 서로의 손을
@@ -281,58 +281,93 @@ const Main = () => {
             <p style={{ fontSize: "0.8rem" }}>네이버지도</p>
           </div>
         </div>
-        <MainText istext="true">
-          <p style={{ fontSize: "1rem" }}>찾아오시는길</p>
-          <span
+        <p
+          style={{
+            fontSize: "1rem",
+            textAlign: "center",
+            marginBottom: "1rem",
+          }}
+        >
+          찾아오시는길
+        </p>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            padding: "3rem",
+          }}
+        >
+          <div
             style={{
-              color: "#7BBD00",
-              fontSize: "1rem",
-              fontWeight: "bold",
+              marginBottom: "2rem",
             }}
           >
-            {" "}
-            자가용 이용시
-          </span>
-          <br />
-          건물 내 2,3,4층 주차 2시간 무료
-          <br />
-          <span
+            <div
+              style={{
+                color: "#7BBD00",
+                fontSize: "1rem",
+                fontWeight: "bold",
+                marginBottom: "-1rem",
+              }}
+            >
+              {" "}
+              자가용 이용시
+            </div>
+            <br />
+            건물 내 2,3,4층 주차 2시간 무료
+          </div>
+          <div
             style={{
-              color: "#7BBD00",
-              fontSize: "1rem",
-              fontWeight: "bold",
+              marginBottom: "2rem",
             }}
           >
-            지하철 이용시
-          </span>
-          <br />
-          [4호선] 미아사거리역 3번 출구 도보 3분
-          <br />
-          <span
+            <div
+              style={{
+                color: "#7BBD00",
+                fontSize: "1rem",
+                fontWeight: "bold",
+                marginBottom: "-1rem",
+              }}
+            >
+              {" "}
+              지하철 이용시
+            </div>
+            <br />
+            [4호선] 미아사거리역 3번 출구 도보 3분
+          </div>
+          <div
             style={{
-              color: "#7BBD00",
-              fontSize: "1rem",
-              fontWeight: "bold",
+              marginBottom: "2rem",
             }}
           >
-            {" "}
-            버스 이용시
-          </span>
-          <br />
-          미아사거리역 하차 <br />{" "}
-          <span style={{ fontWeight: "bold" }}>[간선]</span> 101, 102, 106, 107,
-          108, 120, 130,
-          <br />
-          140, 141, 142, 144, 148, 150, 151, 153,
-          <br />
-          160, 710, N15, N16 <br />
-          <span style={{ fontWeight: "bold" }}> [지선]</span> 1124, 1128, 1137,
-          1165 , 8111
-          <br />
-          <span style={{ fontWeight: "bold" }}>[공항]</span> 6101
-          <br />
-          <span style={{ fontWeight: "bold" }}>[마을]</span> 강북09, 강북11
-        </MainText>
+            <div
+              style={{
+                color: "#7BBD00",
+                fontSize: "1rem",
+                fontWeight: "bold",
+                marginBottom: "-1rem",
+              }}
+            >
+              {" "}
+              버스 이용시
+            </div>
+            <br />
+            미아사거리역 하차 <br />{" "}
+            <span style={{ fontWeight: "bold" }}>[간선]</span> 101, 102, 106,
+            107, 108, 120, 130,
+            <br />
+            140, 141, 142, 144, 148, 150, 151, 153,
+            <br />
+            160, 710, N15, N16 <br />
+            <span style={{ fontWeight: "bold" }}> [지선]</span> 1124, 1128,
+            1137, 1165 , 8111
+            <br />
+            <span style={{ fontWeight: "bold" }}>[공항]</span> 6101
+            <br />
+            <span style={{ fontWeight: "bold" }}>[마을]</span> 강북09, 강북11
+          </div>
+        </div>
       </motion.div>
       <motion.div
         initial={{ opacity: 0, y: 50 }}
